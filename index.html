@@ -13,24 +13,11 @@
         .font-manrope {
             font-family: "Manrope", serif;
         }
-    </style>
-    <!-- <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        "primary": "#FA8405",
-                        "secondary": "#FFF",
-                        "body": "#191718",
-                    },
-                    FontFamily: {
-                        'manrope': 'manrope'
-                    }
-                }
-            }
-        }
-    </script> -->
 
+        .bg-form {
+            background-image: url(assets/bg.jpg);
+        }
+    </style>
     <!-- google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -204,7 +191,6 @@
                 </div>
             </div>
         </section>
-
         <!-- portfolio section -->
         <section class="bg-white">
             <div class="lg:w-3/4 mx-auto px-4 lg:px-0 py-4 lg:py-24 text-center space-y-6">
@@ -271,6 +257,44 @@
                 </div>
             </div>
 
+        </section>
+        <!-- connected form section  -->
+        <section class="bg-form">
+            <div class="text-center px-4 lg:px-0 py-4 lg:py-24 lg:w-2/4 mx-auto space-y-6">
+                <span class="bg-lime-200 rounded-md p-1 mb-5 ">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <small>Let’s Connect</small>
+                </span>
+                <div class="space-y-6 lg:w-2/3 mx-auto">
+                    <h2 class="text-2xl lg:text-4xl font-extrabold">Let’s Discuss Next Project </h2>
+                    <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents.</p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div> <input type="text" placeholder="First Name*" required
+                            class="input input-bordered input-md w-full" />
+                    </div>
+                    <div> <input type="text" placeholder="Last Name*" required
+                            class="input input-bordered input-md w-full" />
+                    </div>
+                    <div> <input type="text" placeholder="Phone Number*" required
+                            class="input input-bordered input-md w-full" />
+                    </div>
+                    <div> <input type="email" placeholder="Email Number*" required
+                            class="input input-bordered input-md w-full" />
+                    </div>
+                    <div class="lg:col-span-2">
+                        <textarea placeholder="write your message here"
+                            class="textarea textarea-bordered textarea-lg w-full"></textarea>
+                    </div>
+                    <div class="btn bg-lime-400 lg:col-span-2">
+                        <a class="text-xl font-extrabold">Send Mail</a>
+                        <i
+                            class="fa-solid fa-arrow-right text-white text-2xl -rotate-45 bg-black rounded-full px-1"></i>
+                    </div>
+                </div>
+
+            </div>
         </section>
     </main>
     <!-- footer section  -->
